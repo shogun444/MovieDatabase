@@ -4,7 +4,7 @@ import {  useEffect, useState} from "react"
 
 import InfiniteScroll from 'react-infinite-scroll-component';
 import axios from "../utils/axios";
-import Loading from "./Details/loading";
+import Loading from "./Details/Loading";
 
 
 export default function Tvshows(){

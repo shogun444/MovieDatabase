@@ -3,7 +3,7 @@ import Searchbar from "./Navbar/Searchbar"
 import { useEffect, useState } from "react"
 import axios from "../utils/axios"
 import InfiniteScroll from "react-infinite-scroll-component"
-import Loading from "./Details/loading"
+import Loading from "./Details/Loading"
 
 
 

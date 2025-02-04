@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { asyncload } from "../../redux/movieactions";
 import { removeData } from "../../redux/Slice/movieslice";
-import Loading from "./loading";
+import Loading from "./Loading";
 import ReactPlayer from "react-player/lazy";
 import NotFound from "./Notfound";
 import Searchbar from "../Navbar/Searchbar";

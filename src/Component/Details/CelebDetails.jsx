@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { asyncC } from "../../redux/celebactions";
 import { removeC } from "../../redux/Slice/celebslice";
-import Loading from "./loading";
+import Loading from "./Loading";
 import Searchbar from "../Navbar/Searchbar";
 
 export default function Celebdetails() {

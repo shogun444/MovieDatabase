@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { cardContext } from "../Navbar/Data";  // Correct import from Data
 import { Link } from "react-router-dom";
-import Loading from "../Details/loading";
+import Loading from "../Details/Loading";
 
 export default function Header() {
   const { photo, trendingCard, loading } = useContext(cardContext);  // Get data from context

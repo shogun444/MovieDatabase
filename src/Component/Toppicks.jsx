@@ -4,7 +4,7 @@ import { useContext, useEffect, useState } from "react";
 import { cardContext } from "./Navbar/Data";
 import axios from "../utils/axios";
 import InfiniteScroll from "react-infinite-scroll-component";
-import Loading from "./Details/loading";
+import Loading from "./Details/Loading";
 
 
 export default function Toppicks(){
