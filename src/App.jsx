@@ -8,11 +8,13 @@ import Movies from "./Component/Movies";
 import Tvshows from "./Component/Tvshows";
 import { Provider } from "react-redux";
 import store from "./redux/store";
-
-import Celebrities from "./Component/celebrities";
 import Moviedetails from "./Component/Details/Moviedetails";
 import Tvdetails from "./Component/Details/Tvdetails";
 import Celebdetails from "./Component/Details/CelebDetails";
+import Celebrities from "./Component/Celebrites";
+
+
+
 
 
 export default function App(){
